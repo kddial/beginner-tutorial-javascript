@@ -1,12 +1,9 @@
 
-var tt = "tt";
-
-
-console.log(tt);
-
-
-
 /* Variables */
+
+// create a new variables with your name
+
+// print it
 
 
 
@@ -15,57 +12,23 @@ console.log(tt);
 
 /* If Else statements */
 
+// sample
+var driving_speed = 70;
 
-var speed = 65;
-
-// Complete the condition in the ()s on line 4
-if (speed ) {
-  // Use console.log() to print "Slow down"
-  
+if (driving_speed > 50) {
+  console.log("Above speed limit! slow down");
 } 
 else {
-  // Use console.log() to print "Drive safe"
-
-
+  console.log("We gucci!");
 }
 
 
-
-
-/* Functions */
-
-// This is what a function looks like:
-
-var divideByThree = function (number) {
-    var val = number / 3;
-    console.log(val);
-};
-
-// On line 12, we call the function by name
-// Here, it is called 'dividebythree'
-// We tell the computer what the number input is (i.e. 6)
-// The computer then runs the code inside the function!
-divideByThree(6);
-
+// use if statements to know if an item is almost sold out
 
 
 
 /* User input */
 
-var userChoice = prompt("Do you choose rock, paper or scissors?");
-var computerChoice = Math.random();
-if (computerChoice < 0.34) {
-  computerChoice = "rock";
-} else if(computerChoice <= 0.67) {
-  computerChoice = "paper";
-} else {
-  computerChoice = "scissors";
-} console.log("Computer: " + computerChoice);
+var userChoice = prompt("Are you looking for hats or shirts?");
 
-
-
-
-/* Next time */
-/* For Loops */
-/* While Loops*/
-
+console.log(userChoice);
